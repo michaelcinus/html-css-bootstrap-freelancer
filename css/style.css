@@ -1,0 +1,13 @@
+/* DEBUG */
+[class*="col-"]{
+    min-height: 100px;
+    border: solid 2px black;
+}
+
+#about{
+    background-color: cadetblue;
+}
+
+footer{
+    background-color: cornflowerblue;
+}
