@@ -1,13 +1,128 @@
-/* DEBUG */
-[class*="col-"]{
-    min-height: 100px;
-    border: solid 2px black;
+h1, h2{
+    font-size: 3em;
+    margin-top: 5%;
 }
 
+a{
+ color: white;
+ font-size: 1.5em;
+}
+
+hr{
+    width: 15%;
+    margin: 2%;
+    display: inline-block;
+}
+
+.fa-star{
+    position: absolute;
+    bottom: 18px;
+    left: 48.5%;
+    font-size: 2em;
+}
+
+/* navbar */
+header .container-fluid, .navbar{
+    background-color: #2c3e50;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+header .navbar .container-fluid a{
+   color: white;
+}
+
+header .navbar .container-fluid a:hover{
+    color: #1abc9c ;
+}
+
+/* jumbo */
+#jumbo{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: #1abc9c;
+    color: white;
+}
+
+#jumbo img {
+    width: 20rem;
+}
+
+/* portfolio */
+#portfolio img {
+    width: 94%;
+    margin: 5% 2%;
+    border-radius: 5px;
+}
+
+#portfolio img:hover {
+    opacity: 0.5 ;
+}
+
+/* about */
 #about{
-    background-color: cadetblue;
+    background-color: #1abc9c;
+    color: white;
+    padding-bottom: 3%;
 }
 
+#about span a i{
+    margin-top: 5%;
+    padding: 2% 1%;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+#about span a i:hover{
+    background-color: white;
+    color: #1abc9c;
+}
+
+/* contact */
+#contact .form-group input,
+#contact .form-group textarea{
+    border: none;
+    border-bottom: solid 1px #ccc;
+    box-shadow: none;
+}
+
+#contact button{
+    background-color: #1abc9c;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#contact button:hover{
+    opacity: 0.9;
+}
+
+/* footer */
 footer{
-    background-color: cornflowerblue;
+    color: white;
+}
+
+#info-footer{
+    background-color: #2c3e50;
+    padding-bottom: 3%;
+}
+
+#info-footer h3{
+    margin: 7%;
+}
+
+#info-footer a {
+    padding: 2%;
+    border: solid 1px white;
+    border-radius: 100%;
+}
+
+#info-footer a:hover{
+    background-color: white;
+    color: #2c3e50;
+}
+
+#copyright{
+    background-color: #1a252f;
+    padding: 1%;
 }
