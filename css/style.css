@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
 h1, h2{
     font-size: 3em;
     margin-top: 5%;
@@ -10,15 +16,14 @@ a{
 
 hr{
     width: 15%;
-    margin: 2%;
+    margin: 1%;
     display: inline-block;
+    vertical-align: 0%;
 }
 
 .fa-star{
-    position: absolute;
-    bottom: 18px;
-    left: 48.5%;
     font-size: 2em;
+    margin-bottom: 2%;
 }
 
 /* navbar */
@@ -46,18 +51,18 @@ header .navbar .container-fluid a:hover{
 }
 
 #jumbo img {
-    width: 20rem;
+    width: 25rem;
 }
 
 /* portfolio */
 #portfolio img {
-    width: 94%;
-    margin: 5% 2%;
+    width: 100%;
+    margin: 4% 0;
     border-radius: 5px;
 }
 
 #portfolio img:hover {
-    opacity: 0.5 ;
+   opacity: 0.5;
 }
 
 /* about */
